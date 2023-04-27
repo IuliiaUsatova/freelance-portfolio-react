@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Freelance Portfolio (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Добро пожаловать в репозиторий проекта портфолио фрилансера, созданного на React! Этот проект представляет собой шаблон веб-сайта портфолио для фрилансеров, разработанный с использованием React и его экосистемы.
 
-## Available Scripts
+## Особенности
 
-In the project directory, you can run:
+- Адаптивный дизайн
+- Компоненты на основе React
+- React Router для навигации
+- Легко кастомизировать
 
-### `npm start`
+## Главная страница
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![На главной странице представлены основные сведения о фрилансере, такие как имя, специализация и контактная информация](./src/images/screenshots/main.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Портфолио
 
-### `npm test`
+![Страница портфолио позволяет демонстрировать выполненные проекты, включая изображения, описания и ссылки на исходный код или рабочие демонстрационные версии](./src/images/screenshots/projects.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Проект
 
-### `npm run build`
+![Каждый проект можно рассмотреть в деталях, щелкнув на него. Это позволяет увидеть подробное описание, используемые технологии и, при наличии, ссылки на исходный код или рабочие демонстрационные версии](./src/images/screenshots/project.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Контакты
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![На странице контактов представлена контактная информация фрилансера, которую можно использовать для связи. Здесь указаны адрес электронной почты, номер телефона и ссылки на профили в социальных сетях, чтобы клиенты и коллеги могли легко связаться с фрилансером](./src/images/screenshots/contacts.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Темная тема
 
-### `npm run eject`
+![На сайте предусмотрена возможность переключения между дневным и ночным режимами для удобства пользователей. В верхнем правом углу сайта расположен переключатель, с помощью которого можно легко изменить цветовую схему на более комфортную для глаз в темное время суток или в зависимости от предпочтений пользователя](./src/images/screenshots/btnLightDark.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Демонстрационная версия сайта
+Посмотреть работу сайта в действии можно, перейдя по следующей ссылке: https://iuliiausatova.github.io/freelance-portfolio-react/
