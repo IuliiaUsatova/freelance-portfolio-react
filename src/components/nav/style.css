@@ -1,0 +1,74 @@
+/* Nav */
+.nav {
+   border-bottom: 1px solid var(--dark-border);
+   padding: 20px 0;
+   background-color: var(--dark-bg);
+   color: var(--header-text);
+   letter-spacing: normal;
+ }
+ 
+ .nav-row {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   /* отступ между элементами в одной строке*/
+   column-gap: 30px;
+   /* отступ между элементами при их переносе на новую строку */
+   row-gap: 20px;
+   /* для переноса элементов на строку ниже при адаптации */
+   flex-wrap: wrap;
+ }
+ 
+ .logo {
+    margin-right: auto;
+   color: var(--header-text);
+   font-size: 24px;
+   font-family: 'Poppins', sans-serif;
+ }
+ 
+ .logo strong {
+   font-weight: 700;
+ }
+ 
+ .nav-list {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 10px;
+   align-items: center;
+   /* отступ между элементами в одной строке по макету*/
+   column-gap: 40px;
+   font-size: 16px;
+   /* medium */
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+ }
+ 
+ .nav-list__link {
+   color: var(--header-text);
+   transform: opacity 0.2s ease-in;
+ }
+ 
+ .nav-list__link:active {
+   opacity: 0.8;
+ }
+ 
+ .nav-list__link--active {
+   position: relative;
+   color: var(--header-text);
+ }
+ 
+ /* создаем псевдоэлемент */
+ .nav-list__link--active::before {
+   /* благодаря content он будет отражен */
+   content: '';
+ 
+   position: absolute;
+   left: 0;
+   top: 100%;
+ 
+   display: block;
+   height: 2px;
+   width: 100%;
+   background-color: var(--accent);
+ }
+ 
